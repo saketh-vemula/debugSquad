@@ -9,14 +9,15 @@
 
 <body>
     <h1>register form</h1>
+    <form action="#"></form>
     <label for="first name">first name</label>
-    <input type="text" id="first name"><br></br>
+    <input type="text" id="first name" placeholder="enter first name"><br></br>
     <label for="last name">last name</label>
-    <input type="text" id="last name"><br></br>
+    <input type="text" id="last name" placeholder="enter last name"><br></br>
     <label for="gmail id">gmail id</label>
-    <input type="text" id="gmail id"><br></br>
+    <input type="text" id="gmail id" placeholder="enter gmail" required><br></br>
     <label for="mobile.no">mobile.no</label>
-    <input type="tel" id="mobile.no" max="10"><br></br>
+    <input type="tel" id="mobile.no" max="10" placeholder="enter mobile no." required maxlength="10"><br></br>
 
     <label for="city">city</label>
     <input type="text" id="city"><br></br>
@@ -25,22 +26,38 @@
     <input type="date" id="date of birth"><br><br>
 
     <label for="gender">Gender:</label><br><br>
-    <input type="radio" id="male">
-    <label for="male"> male</label><br><br>
-
-    <input type="radio" id="female">
-    <label for="female">Female</label><br><br>
-
+    <input type="radio" name="gender" id="male">
+    <label for="male">male</label>
+    <input type="radio" name="gender" id="female">
+    <label for="female">female</label><br><br>
 
     <label for="password">password</label>
-    <input type="password" id="password" max="16"><br></br>
+    <input type="password" id="password" placeholder="enter password" required maxlength="16"><br></br>
     <label for="conform password">conform password</label>
-    <input type="password" id="conform password" max="16"><br></br>
+    <input type="password" id="conform password" placeholder="enter conform password" required maxlength="16"><br></br>
 
     <label for="pin code"> pin code</label>
-    <input type="number" id="pin code" max="6"><br></br>
+    <input type="number" id="pin code" min="0" max="6"><br></br>
     <label for="enter url">enter url</label>
-    <input type="url" id="enter url"><br><br>
+    <input type="url" id="enter url" placeholder="paste url"><br><br>
+    <label for="course">course</label>
+    <select id="course">
+        <option value="">select course</option>
+        <option value="ece">ece</option>
+        <option value="cse">cse</option>
+        <option value="mech">mech</option>
+    </select><br><br>
+    <label for="select skills:">select skills</label><br>
+    <label for="html">html</label>
+    <input type="checkbox" name="html" id="html">
+    <label for="css">css</label>
+    <input type="checkbox" name="css" id="css"><br><br>
+    <label for="favourite colour">favourite colour</label><br>
+    <input type="color" name="" id="favourite colour"><br><br>
+    <label for="">pattern</label>
+    <input type="tel" name="pattern" id="pattern" pattern="/^[6-9][0-9]{9}$/" minlength="1" maxlength="10"><br><br>
+    <label for="age">age</label><br>
+    <input type="number" name="age" id="age" min="18" max="35"><br><br>
 
     <button>register</button>
     <button>cancel</button>
