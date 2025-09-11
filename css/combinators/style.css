@@ -1,0 +1,18 @@
+.desending1 {
+    color: aqua;
+}
+.two p {
+    color: rgb(43, 226, 153);
+}
+.one p{
+    color: rgb(58, 12, 239);
+}
+.three>div>span{
+    color: brown;
+}
+.adjacent+div+div>p{
+    color: blue;
+}
+.general~div{
+    color: brown;
+}
