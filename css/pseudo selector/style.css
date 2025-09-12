@@ -1,0 +1,41 @@
+.name:hover{
+    color: red;
+    font-size: 50px;
+}
+.link>a:visited{
+   color: aquamarine;
+}
+.link2>a:active{
+   color: rgb(148, 11, 11);
+}
+.focus input:focus{
+background-color: aqua;
+} 
+ .members ul li:first-child{
+    color: blue;
+ }
+ .member ol li:last-child{
+    color: blueviolet;
+
+ }
+.fruits ol li:nth-child(3){
+color: brown;
+}
+.para p::before{content: "para starts here";
+color: red;
+}
+.para p::after{
+   content: "para ends here ";
+   color: brown;
+}
+
+.para p::first-letter{
+   color: blue;
+   font-size: 20px;
+}
+.sentence p::first-line{
+   color: red;
+}
+input::placeholder{
+   color: green;
+}
