@@ -1,0 +1,55 @@
+.box{
+    height: 200px;
+    width: 180px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.static{
+    height: 200px;
+    width: 180px;
+    background-color: aquamarine;
+    position: static;
+    top: 0;
+    right: 0;
+
+}
+.relative{
+     height: 200px;
+    width: 180px;
+    background-color: brown;
+    position: relative;
+    left: 200px;;
+top: 50px;
+}
+section{ height: 150px;
+    
+
+    position: relative;
+    border: 2px solid black;
+
+}
+.absolute{
+     height: 200px;
+    width: 180px;
+    background-color: blue;
+    position: absolute;
+    bottom: 50px;
+    
+}
+.fixed{
+    right: 50px;
+    position: fixed;
+     height: 200px;
+    width: 180px;
+    background-color: blueviolet;
+bottom: 150px;
+}
+.sticky{
+     height: 200px;
+    width: 180px;
+    position: sticky;
+    background-color: burlywood;
+    top: 0px;
+    bottom: 0;
+}
