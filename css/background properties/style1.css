@@ -1,0 +1,48 @@
+h1{
+    color: blueviolet;
+    font-size: larger;
+    text-align: center;
+    padding: 6px;
+    
+}
+h2{
+     
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+    height: 300px;
+    width: 150px;
+    border: 1px solid black;
+    background-image: url(/assets/picture/madara-uchiha-uchiha-madara-5083.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    background-attachment: scroll;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+p{
+    color: red;
+}
+.hobbies>p{
+    color:black;
+
+}
+span{
+    color: darkblue;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+.hobbies span{
+    color: darkgreen;
+
+}
+.skills span{
+    color: blueviolet;
+}
+.skills>p{
+    color: brown;
+}
+
