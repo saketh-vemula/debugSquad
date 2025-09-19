@@ -1,0 +1,163 @@
+header{
+padding: 4px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+height: 30px;
+}
+
+h1{
+    width: 60%;
+    font-style: italic;
+}
+nav{
+     display: flex; 
+        align-items: center;
+        justify-content: space-evenly;
+        width: 40%; 
+        
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.body{
+    margin: 5px;
+    height: 150px; 
+    width: 100%;
+    
+
+
+
+}
+.info1{
+    margin: 20px 0px 2px 0px;
+}
+.info1>p{
+    font-size: 18px;
+    
+
+}
+.info2>p{ font-size: 18px;
+    
+
+}
+.body>img{
+    border-radius: 50%;
+    width: 90px;
+    height: 95px;
+    
+    
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    padding: 6px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.info1{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.info2{
+     border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.body2{
+display: flex;
+margin: 50px 0px 0px 0px;
+gap: 10px;
+}
+.card1{
+flex: 1;
+    border-radius: 12px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+.card1>img{
+     border-radius: 50%;
+    width: 90px;
+    height: 95px;
+    position: relative;
+    left:100px;
+    bottom: 45px;
+    
+    
+}
+.card1>span{
+    font-size: x-large;
+    text-align: center;
+font-weight: bolder;
+
+}
+.card1>span>p{font-weight: lighter;
+    font-size: 20px;
+
+}
+.card1>p{
+    padding: 5px;
+}
+.card2{ flex: 1;
+    border-radius: 12px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+
+}
+.card2>img{ border-radius: 50%;
+    width: 90px;
+    height: 95px;
+    position: relative;
+    left:35px;
+    bottom: 45px;
+    
+
+}
+.card2>span{
+    font-weight: bolder;
+    font-size: x-large;
+    
+}
+.card2>span>p{font-weight: lighter;
+    font-size: 20px;
+
+}
+.body3{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+
+form>input,textarea{
+    padding: 15px;
+    border-radius: 8px;
+    justify-content: space-between;
+    width: 400px;
+}
+form>textarea{
+    width: 850px;
+    margin: 10px 0px 10px 0px;
+    padding:25px ;
+}
+form>button{
+    padding: 15px;
+    background-color: violet;
+    width: 200px;
+}
+
+
+    
