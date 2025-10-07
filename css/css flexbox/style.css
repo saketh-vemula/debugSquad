@@ -1,0 +1,33 @@
+.container{
+    height:auto;
+    border: 1px solid black;
+    display: flex;
+    
+    flex-direction:   row;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    gap: 80px;
+    
+}
+.box{
+    display: flex;
+     height: 150px;
+    width: 180px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: brown;
+    color: aliceblue;
+    font-size: xx-large;
+     align-items: center;
+     justify-content: center;
+}
+.box4{
+    flex-grow: 2;
+    
+}
+.box4:hover{
+    background-color: aqua;
+}
+
