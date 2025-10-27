@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 350%;
+    color: blue;
+}
+body{
+    background-color: whitesmoke;
+}
+.section1{
+    text-align: start;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 14px;
+    background-color: white;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 8px;
+}
+
+h2,h5{
+    text-align: center;
+    font-weight: 700;
+}
+h5{
+    color: lightslategrey;
+}
+input{
+    padding: 9px;
+    width: 95%;
+    border-radius: 5px;
+}
+div{display: flex;
+gap: 10px;}
+select{
+    width: 95%;
+    border-radius: 5px;
+    padding: 7px;
+}
+.rad{
+    border: 1px solid black;
+    width: 31%;
+    padding: 6px;
+    border-radius: 5px;
+}
+.small{
+    color: lightslategrey;
+}
+button{
+    margin-left: 31%;
+background-color:rgb(2, 174, 2);
+color: aliceblue;
+padding: 7px 65px;
+border-radius: 5px;
+}
+.account{
+    margin-left: 31%;
+    font-size: large;
+    font-weight: 200;
+}
+a{text-decoration: none;}
